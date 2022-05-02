@@ -1,0 +1,89 @@
+
+.navbar {
+    background-color: #41464d;
+    padding: 0 50px;
+}
+
+.title {
+    color: white;
+    font-weight: 500;
+}
+
+.nav-link {
+    color: #9ba4ad;
+}
+
+.active {
+    
+    color:white
+}
+
+.comprar {
+    color: green;
+}
+
+.card-img-overlay {
+    color: white;
+}
+
+.carousel-inner::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.carousel-caption {
+ text-align: right;
+ max-width: 150%;
+ bottom: 9rem;
+ left: 50%;
+ right: 8%;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+.titulo {
+    text-transform: uppercase;
+    background-color: white;
+    text-align: center;
+    line-height: 5;
+    padding-top: 30px;
+}
+
+.titulo p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.cards {
+    margin: 10px 100px;
+}
+
+.bg-secondary {
+    background-color: #41464d !important;
+}
+
+.row {
+    flex-wrap: nowrap;
+}
+
+.contenido {
+    margin-right: 300px;
+}
+
+.form {
+    margin: 20px 170px;
+}
+
+.form-floating {
+    margin-top: 10px;
+}
+
+.navbar-expand-lg {
+    background-color: rgb(57, 93, 168);
+    height: 100px;
+}
