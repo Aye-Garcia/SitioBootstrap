@@ -2,6 +2,13 @@
 .navbar {
     background-color: #41464d;
     padding: 0 50px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .title {
@@ -11,11 +18,20 @@
 
 .nav-link {
     color: #9ba4ad;
-}
+    padding: .5rem 1rem;
+    display: block;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+} 
 
 .active {
     
     color:white
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
 }
 
 .comprar {
@@ -32,17 +48,26 @@
     content: "";
 }
 
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.container-fluid {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+} 
+
 .carousel-caption {
  text-align: right;
  max-width: 150%;
  bottom: 9rem;
  left: 50%;
  right: 8%;
-}
-
-.container-fluid {
-  padding: 0px;
-}
+} 
 
 .titulo {
     text-transform: uppercase;
@@ -59,20 +84,21 @@
     line-height: 1.2;
 }
 
-.cards {
-    margin: 10px 100px;
-}
-
 .bg-secondary {
     background-color: #41464d !important;
 }
 
 .row {
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .contenido {
-    margin-right: 300px;
+    color: white;  
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: 100%;
 }
 
 .form {
@@ -81,9 +107,4 @@
 
 .form-floating {
     margin-top: 10px;
-}
-
-.navbar-expand-lg {
-    background-color: rgb(57, 93, 168);
-    height: 100px;
 }
